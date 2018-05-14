@@ -1,5 +1,5 @@
 /**
-*Chương trình sử dụng đơn giản sử dụng danh sách liên kết đơn và Queue kết hợp nhau.
+*Chương trình đơn giản sử dụng danh sách liên kết đơn và Queue kết hợp nhau.
 *Sử dụng queue để sử lý chuôi và mảng các số nguyên.
 *Xác định mảng và chuỗi có đối xứng nhau hay không.
 *@Author : Trần Quốc Khánh
