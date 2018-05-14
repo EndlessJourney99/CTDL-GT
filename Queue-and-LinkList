@@ -157,8 +157,9 @@ bool chuoiDoiXung(char *s) {
 }
 
 
-
-
+/**
+*Test Input
+*/
 int main() {
 	int a[10] = { 5,4,3,2,1,1,2,3,4,5 };
 	int n = 10;
