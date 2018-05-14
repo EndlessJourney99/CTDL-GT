@@ -58,7 +58,6 @@ int enQueue(Queue &q, char *x) { // enQueue cho mảng ký tự
 		}
 		p->s = new char[i];
 		strcpy(p->s, x);
-		cout << p->s << endl;
 		p->next = NULL;
 		if (q.head == NULL)
 			q.head = q.tail = p;
@@ -139,7 +138,6 @@ bool chuoiDoiXung(char *s) {
 		s2[i] = NULL;
 	for (int i = 0; i < len; i++)
 		s2[i] = s[n-1-i];
-	cout << s1 << " " << s2 << endl;
 	enQueue(q, s1);		//lấy phần tử nửa đầu mảng(từ 0 -> (n/2)-1)
 	enQueue(p, s2);		//lấy phần tử nửa sau mảng theo chiều (n-1 -> n/2)
 	f = deQueue(q);
